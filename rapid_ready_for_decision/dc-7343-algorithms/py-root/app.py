@@ -17,7 +17,7 @@ Swagger(
             "description": "",
             "version": "1.0.2",
         },
-        "host": "localhost:5000",
+        "host": "127.0.0.1:5000",
         "schemes": ["http"],
     },
     config=swagger_config,

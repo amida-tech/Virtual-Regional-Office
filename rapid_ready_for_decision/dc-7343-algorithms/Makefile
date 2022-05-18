@@ -2,6 +2,7 @@
 SHELL := bash
 POETRY ?= poetry
 SAM ?= sam
+DOCKER ?= docker
 
 PYTHON_PROJECT_DIR := py-root
 
