@@ -21,6 +21,6 @@ http://localhost:5000/apidocs
 
 # Docker
 
-Use the commands to build and run with docker, from the dc-7343-algorithms directory:
+Use the commands to build and run with Docker, from the dc-7343-algorithms directory:
 `docker build --no-cache -t dc-7343-algorithms .`
 `docker run -p 5000:5000 dc-7343-algorithms `
