@@ -1,0 +1,10 @@
+version: "3.9.3"
+
+services:
+  app:
+    build:
+      context: .
+    image: "dc-7343-algorithms"
+    ports:
+      - "4000:5000"
+    command: flask run --host 0.0.0.0

@@ -63,7 +63,7 @@ def procedure_match(request_body):
     date_of_claim_datetime = datetime.strptime(date_of_claim, "%Y-%m-%d").date()
 
     for procedure in request_body["procedure"]:
-        code = request_body["code"]
+        code = procedure["code"]
         status = procedure["status"].lower()
         if code in pc_procedure_cpt and status == "active":
             procedure_match_calculation["procedure_within_six_months"] = True
