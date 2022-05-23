@@ -26,12 +26,11 @@ from lib.algorithms.condition import active_cancer_condition
                                     "status": "active"}],
                     "procedure": [
                         {
-                            "code": "174710004",
-                            "code_system": "http://snomed.info/sct",
-                            "text": "(Surgery - distal subtotal pancreatectomy)",
+                            "code": "1010843",
+                            "text": "Radiation Oncology Treatment",
                             "performed_date": "2021-12-01",
                             "last_update_date": "2021-12-15",
-                            "status": "completed"
+                            "status": "completed",
                         }
                     ],
                     "date_of_claim": "2021-11-09",
